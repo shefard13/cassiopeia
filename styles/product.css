@@ -1,0 +1,29 @@
+.product-container {
+  width: 400px;
+}
+
+.product-img {
+  background-image: url(product.jpg);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-black {
+  fill: black;
+}
+
+.product-counters {
+  padding-top: 18px;
+}
+
+.product-body {
+  font-weight: normal;
+  font-size: 16px;
+}

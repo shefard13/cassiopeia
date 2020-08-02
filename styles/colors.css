@@ -1,0 +1,30 @@
+.colors {
+  display: flex;
+  flex-direction: column;
+  margin: -4px;
+}
+
+.colors > * {
+  margin: 4px;
+}
+
+.color {
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+  width: 36px;
+  height: 36px;
+  padding: 2px;
+}
+
+.color:hover,
+.color.is-selected {
+  background-clip: content-box;
+  border-color: rgb(100, 102, 235);
+}
+
+.color:focus,
+.color:active {
+  border-color: #595cff;
+}

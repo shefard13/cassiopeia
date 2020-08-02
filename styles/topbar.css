@@ -1,0 +1,31 @@
+.top_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 80px;
+  align-items: center;
+}
+
+.nav_link {
+  padding: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.top_bar_end {
+  font-size: 24px;
+  color: black;
+  margin: 0 -10px;
+}
+.top_bar_end > *{
+padding: 0 10px;
+}
+
+

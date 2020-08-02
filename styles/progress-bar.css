@@ -1,0 +1,57 @@
+.progress {
+  display: flex;
+  align-items: center;
+}
+
+.progress__item {
+  display: flex;
+  align-items: center;
+}
+
+.progress__item * {
+  margin-right: 5px;
+}
+
+.progress > * {
+  margin-right: 10px;
+}
+
+.progress__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 23px;
+  border: 1px solid #595cff;
+}
+
+.progress__item.is-active .progress__number {
+  background-color: #595cff;
+  color: white;
+  border: 1px solid #595cff;
+}
+
+.progress__item.is-disabled .progress__number {
+  color: #afb1bd;
+  border: 1px solid #afb1bd;
+}
+.progress__item.is-disabled .progress__title {
+  color: #afb1bd;
+}
+
+.progress__item:after {
+  content: "";
+  border: 1px solid grey;
+  width: 60px;
+}
+
+.progress__item:after {
+  content: "";
+  border: 1px solid grey;
+  width: 60px;
+}
+
+.progress > :last-child::after {
+  display: none;
+}

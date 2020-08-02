@@ -1,0 +1,37 @@
+.lists-kop {
+  display: flex;
+  flex-direction: column;
+  margin: -4px;
+  width: 50%;
+}
+.lists-kop > * {
+  margin: 4px;
+}
+.lists__item {
+  text-decoration: none;
+  color: #000000;
+}
+.list-kop {
+  width: 100%;
+  height: 58px;
+  padding: 0px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #f0f0f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s;
+}
+.list-kop span {
+  color: #000000;
+}
+.list-kop:hover,
+.list-kop:focus {
+  background: #f9f9fb;
+  border-radius: 4px;
+  padding: 20px;
+  transition: all 0.2s;
+}
+.icon-plus-list {
+  fill: #595cff;
+}

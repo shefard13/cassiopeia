@@ -1,0 +1,83 @@
+textarea {
+  resize: vertical;
+}
+
+.field {
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: normal;
+  border-radius: 0;
+  -webkit-appearance: none;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+select.field {
+  padding-right: 40px;
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 14px;
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cpath d='M31.799 8.358l-15.314 16.317c-0.268 0.285-0.702 0.285-0.97 0l-15.314-16.317c-0.268-0.285-0.268-0.748 0-1.033 0.129-0.137 0.303-0.214 0.485-0.214h30.629c0.379 0 0.686 0.327 0.686 0.731 0 0.194-0.072 0.38-0.201 0.517z'%3E%3C/path%3E%3C/svg%3E%0A");
+}
+
+.field_primary {
+  border: 1px solid #e6e6eb;
+  border-radius: 4px;
+}
+
+.field_primary:focus {
+  border-color: #595cff;
+  outline: none;
+}
+
+.field_seconary {
+  border-bottom: 1px solid #e6e6eb;
+}
+
+.field_seconary:focus {
+  border-bottom-color: #595cff;
+  outline: none;
+}
+
+.radio,
+.checkbox {
+  -webkit-appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-size: 14px;
+  background-color: #f0f0f5;
+  background-position: center;
+  background-repeat: no-repeat;
+  outline: none;
+}
+
+.radio {
+  border-radius: 20px;
+}
+
+.radio:checked,
+.checkbox:checked {
+  background-color: #595cff;
+}
+
+.radio:checked::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.checkbox:checked {
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' fill='white' xmlns='http://www.w3.org/2000/svg' width='48' height='32' viewBox='0 0 48 32'%3E%3Cpath d='M43.472 0.757c1.055-1.028 2.743-1.007 3.771 0.048 0.914 0.937 0.998 2.376 0.265 3.406l-0.313 0.365-27.354 26.667c-0.906 0.883-2.284 0.994-3.308 0.331l-0.415-0.331-15.313-14.928c-1.055-1.028-1.076-2.716-0.048-3.771 0.914-0.937 2.349-1.059 3.398-0.352l0.373 0.304 13.451 13.109 25.493-24.848z'%3E%3C/path%3E%3C/svg%3E");
+}

@@ -1,0 +1,31 @@
+.counter {
+  display: flex;
+  align-items: center;
+  margin: 0 -8px;
+}
+
+.counter > * {
+  margin: 0 8px;
+}
+
+.counter-value {
+  font-size: 14px;
+}
+
+.counter-increment,
+.counter-decrement {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #f0f0f5;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.counter-increment,
+.counter-decrement .icon {
+  color: #595cff;
+  font-size: 10px;
+}

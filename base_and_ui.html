@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+
+    <script src="icon/svgxuse.js"></script>
+
+    <style>
+      .demo {
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+<!-- fields -->
+      <div class="demo">
+        <h2 class="demo__title">Fields</h2>
+        <hr />
+        <br />
+        <div class="demo__body">
+          <input
+            type="text"
+            class="field field_primary"
+            placeholder="some input"
+          />
+          <input
+            type="text"
+            class="field field_seconary"
+            placeholder="some input"
+          />
+          <select class="field field_primary">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+          </select>
+          <textarea
+            type="text"
+            class="field field_primary"
+            placeholder="some input"
+          ></textarea>
+        </div>
+      </div>
+<!-- buttons -->
+      <div class="demo">
+        <h2 class="demo__title">Buttons</h2>
+        <hr />
+        <br />
+        <div class="demo__body">
+          <button class="button button_outline_primary">Button</button>
+          <button class="button button_outline_primary">
+            Button
+            <svg class="icon icon-arrow icon_right">
+              <use xlink:href="icon/symbol-defs.svg#icon-arrow"></use>
+            </svg>
+          </button>
+          <button class="button button_link">
+            Button
+            <svg class="icon icon-arrow icon_right">
+              <use xlink:href="icon/symbol-defs.svg#icon-arrow"></use>
+            </svg>
+          </button>
+          <button class="button button_link">Button</button>
+          <span class="button button_primary button_icon">
+            <svg class="icon icon-arrow">
+              <use xlink:href="icon/symbol-defs.svg#icon-arrow"></use></svg></span>
+          <span
+            class="button button_icon button_outline_primary button_rounted"
+          >
+            <svg class="icon icon-arrow">
+              <use xlink:href="icon/symbol-defs.svg#icon-cart"></use></svg></span>
+          <a href="#" class="button button_primary">Button</a>
+          <input type="button" class="button button_primary" value="Button" />
+        </div>
+      </div>
+<!-- controls -->
+      <div class="demo">
+        <h2 class="demo__title">Controls</h2>
+        <hr />
+        <br />
+        <div class="demo__body">
+          <div>
+            <label>
+              <input class="radio" name="1" type="radio" />
+              <span class="label">Текст</span>
+            </label>
+          </div>
+          <div>
+            <label>
+              <input class="radio" name="1" type="radio" />
+              <span class="label">Текст</span>
+            </label>
+          </div>
+          <label>
+            <input class="checkbox" type="checkbox" />
+            <span class="label">Текст</span>
+          </label>
+          <label>
+            <input class="checkbox" type="checkbox" />
+            <span class="label">Текст</span>
+          </label>
+        </div>
+      </div>
+<!-- icons -->
+      <div class="demo">
+        <h2 class="demo__title">Icons</h2>
+        <hr />
+        <br />
+        <div class="demo__body">
+          <svg class="icon icon-arrow-1">
+            <use xlink:href="icon/symbol-defs.svg#icon-arrow-1"></use>
+          </svg>
+          <svg class="icon icon-arrow-2">
+            <use xlink:href="icon/symbol-defs.svg#icon-arrow-2"></use>
+          </svg>
+          <svg class="icon icon-arrow-3">
+            <use xlink:href="icon/symbol-defs.svg#icon-arrow-3"></use>
+          </svg>
+          <svg class="icon icon-arrow-4">
+            <use xlink:href="icon/symbol-defs.svg#icon-arrow-4"></use>
+          </svg>
+          <svg class="icon icon-minus">
+            <use xlink:href="icon/symbol-defs.svg#icon-minus"></use>
+          </svg>
+          <svg class="icon icon-plus">
+            <use xlink:href="icon/symbol-defs.svg#icon-plus"></use>
+          </svg>
+        </div>
+      </div>
+<!-- counter -->
+      <div class="demo">
+        <h2 class="demo__title">Counter</h2>
+        <hr />
+        <br />
+        <div class="demo__body">
+          <div class="counters">
+            <div class="counter">
+              <div class="counter-increment">
+                <svg class="icon icon-plus">
+                  <use xlink:href="icon/symbol-defs.svg#icon-plus"></use>
+                </svg>
+              </div>
+              <div class="counter-value">
+                N
+              </div>
+              <div class="counter-decrement">
+                <svg class="icon icon-minus">
+                  <use xlink:href="icon/symbol-defs.svg#icon-minus"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- colors -->
+      <div class="demo">
+        <h2 class="demo__title">Colors</h2>
+        <hr />
+        <br />
+        <div class="demo__body">
+          <div class="colors">
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color is-selected"></div>
+          </div>
+        </div>
+      </div>
+<!-- logo -->
+      <div class="demo">
+        <h2 class="demo__title">Logo</h2>
+        <hr />
+        <br />
+        <div class="demo__body">
+          <a href="#" class="logo">
+            <img class="logo__image" src="img/logo.svg" alt="" />
+          </a>
+        </div>
+      </div>
+<!-- list -->
+      <div class="demo">
+        <h2 class="demo__title">List</h2>
+        <hr />
+        <br />
+        <div class="demo__body">
+          <div class="lists-kop">
+            <a href="#" class="lists__item">
+              <div class="list-kop">
+                <span>Type something</span>
+                <svg class="icon icon-plus icon-plus-list">
+                  <use xlink:href="icon/symbol-defs.svg#icon-plus"></use>
+                </svg>
+              </div>
+            </a>
+            <a href="#" class="lists__item">
+              <div class="list-kop">
+                <span>Type something</span>
+                <svg class="icon icon-plus icon-plus-list">
+                  <use xlink:href="icon/symbol-defs.svg#icon-plus"></use>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+<!-- radio -->
+      <div class="demo">
+        <h2 class="demo__title">Radiogroup</h2>
+        <hr />
+        <br />
+        <div class="demo__body">
+          <div class="radiogroups">
+            <div class="radiogroups__item">
+              <div class="radiogroup">
+                <label class="radio-label radiogroup__label">
+                  <input
+                    class="radio radiogroup__radio"
+                    name="3"
+                    type="radio"
+                  />
+                  <span class="radiogroup__border"></span>
+                  <div class="radiogroup__title-group">
+                    <span class="radiogroup__title">Title</span>
+                    <span class="radiogroup__text">Description</span>
+                  </div>
+                  <span class="radiogroup__price">Price</span>
+                </label>
+              </div>
+            </div>
+            <div class="radiogroups__item">
+              <div class="radiogroup">
+                <label class="radio-label radiogroup__label">
+                  <input
+                    class="radio radiogroup__radio"
+                    name="3"
+                    type="radio"
+                  />
+                  <span class="radiogroup__border"></span>
+                  <div class="radiogroup__title-group">
+                    <span class="radiogroup__title">Title</span>
+                    <span class="radiogroup__text">Description</span>
+                  </div>
+                  <span class="radiogroup__price">Price</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- hero -->
+      <div class="demo">
+        <h2 class="demo__title">Hero</h2>
+        <hr />
+        <br />
+        <div class="demo__body">
+          <div class="hero">
+            <div class="hero__background">
+              <img class="hero_image" src="img/product-card.jpg" alt="" />
+            </div>
+            <div class="hero__foreground hero__medium">
+              <div class="hero__container">
+                <div class="hero__title">Title</div>
+                <div class="hero__description">description</div>
+                <a href="#" class="button button_primary my">Button</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- bread -->
+      <div class="demo">
+        <h2 class="demo__title">Breadcrumber</h2>
+        <hr />
+        <br />
+
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Level1</a></li>
+          <li class="breadcrumb-item"><a href="#">Level2</a></li>
+          <li class="breadcrumb-item"><a href="#">Level3</a></li>
+          <li class="breadcrumb-item active">Level4</li>
+        </ol>
+
+        <a href="#" class="button button_link">
+          <svg class="icon icon-arrow icon_right">
+            <use xlink:href="icon/symbol-defs.svg#icon-arrow"></use>
+          </svg>
+          Back
+        </a>
+      </div>
+<!-- product check -->
+      <div class="demo">
+        <h2 class="demo__title">Product checkout</h2>
+        <div class="demo__body">
+          <div class="product">
+            <div class="product-body">
+              <img class="product-img" src="img/product-checkout.jpg" />
+              <div class="product-name">
+                <div class="product-name-title">Name</div>
+                <div class="counters product-counters">
+                  <div class="counter">
+                    <div class="counter-increment">
+                      <svg class="icon icon-black icon-plus">
+                        <use xlink:href="icon/symbol-defs.svg#icon-plus"></use>
+                      </svg>
+                    </div>
+                    <div class="counter-value">
+                      N
+                    </div>
+                    <div class="counter-decrement">
+                      <svg class="icon icon-black icon-minus">
+                        <use xlink:href="icon/symbol-defs.svg#icon-minus"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-price">Price</div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-body">
+              <img class="product-img" src="img/product-checkout.jpg" />
+              <div class="product-name">
+                <div class="product-name-title">Name</div>
+                <div class="counters product-counters">
+                  <div class="counter">
+                    <div class="counter-increment">
+                      <svg class="icon icon-black icon-plus">
+                        <use xlink:href="icon/symbol-defs.svg#icon-plus"></use>
+                      </svg>
+                    </div>
+                    <div class="counter-value">
+                      N
+                    </div>
+                    <div class="counter-decrement">
+                      <svg class="icon icon-black icon-minus">
+                        <use xlink:href="icon/symbol-defs.svg#icon-minus"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-price">Price</div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- productcard -->
+      <div class="demo">
+        <h2 class="demo__title">Product Card</h2>
+        <hr />
+        <br />
+        <div class="demo__body">
+          <div class="grid child-width-1-4">
+            <div>
+              <a class="product-card" href="#">
+                <div class="product-card__group">
+                  <img
+                    class="product-card__image"
+                    src="img/product-card.jpg"
+                    alt="card"
+                  />
+                  <div class="product-card__hover">
+                    <div class="product-card__buttons">
+                      <span
+                        class="button basket-button button_icon button_secondary"
+                      >
+                        <svg class="icon">
+                          <use
+                            xlink:href="icon/symbol-defs.svg#icon-cart"></use></svg></span>
+                      <span class="button basket-button button_icon button_secondary">
+                        <svg class="icon icon-Search">
+                          <use
+                            xlink:href="icon/symbol-defs.svg#icon-Search"></use></svg></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card__description">
+                  <p class="product-card__name">Name</p>
+                  <p class="product-card__price">
+                    Price
+                    <span class="product-card__old-price"> Price </span>
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a class="product-card" href="#">
+                <div class="product-card__group">
+                  <img
+                    class="product-card__image"
+                    src="img/product-card.jpg"
+                    alt="card"
+                  />
+                  <div class="product-card__hover">
+                    <div class="product-card__buttons">
+                      <span
+                        class="button basket-button button_icon button_secondary"
+                      >
+                        <svg class="icon">
+                          <use xlink:href="icon/symbol-defs.svg#icon-cart"></use></svg></span>
+                      <span
+                        class="button basket-button button_icon button_secondary"
+                      >
+                        <svg class="icon icon-Search">
+                          <use xlink:href="icon/symbol-defs.svg#icon-Search"></use></svg></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card__description">
+                  <p class="product-card__name">Name</p>
+                  <p class="product-card__price">
+                    Price
+                    <span class="product-card__old-price"> Price </span>
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a class="product-card" href="#">
+                <div class="product-card__group">
+                  <img
+                    class="product-card__image"
+                    src="img/product-card.jpg"
+                    alt="card"
+                  />
+                  <div class="product-card__hover">
+                    <div class="product-card__buttons">
+                      <span
+                        class="button basket-button button_icon button_secondary"
+                      >
+                        <svg class="icon">
+                          <use
+                            xlink:href="icon/symbol-defs.svg#icon-cart"></use></svg></span>
+                      <span
+                        class="button basket-button button_icon button_secondary"
+                      >
+                        <svg class="icon icon-Search">
+                          <use xlink:href="icon/symbol-defs.svg#icon-Search"></use></svg></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card__description">
+                  <p class="product-card__name">Name</p>
+                  <p class="product-card__price">
+                    Price
+                    <span class="product-card__old-price"> Price </span>
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a class="product-card" href="#">
+                <div class="product-card__group">
+                  <img
+                    class="product-card__image"
+                    src="img/product-card.jpg"
+                    alt="card"
+                  />
+                  <div class="product-card__hover">
+                    <div class="product-card__buttons">
+                      <span
+                        class="button basket-button button_icon button_secondary"
+                      >
+                        <svg class="icon">
+                          <use
+                            xlink:href="icon/symbol-defs.svg#icon-cart"
+                          ></use></svg></span>
+                      <span
+                        class="button basket-button button_icon button_secondary"
+                      >
+                        <svg class="icon icon-Search">
+                          <use
+                            xlink:href="icon/symbol-defs.svg#icon-Search"
+                          ></use></svg></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card__description">
+                  <p class="product-card__name">Name</p>
+                  <p class="product-card__price">
+                    Price
+                    <span class="product-card__old-price"> Price </span>
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div>
+              <a class="product-card" href="#">
+                <div class="product-card__group">
+                  <img
+                    class="product-card__image"
+                    src="img/product-card.jpg"
+                    alt="card"
+                  />
+                  <div class="product-card__hover">
+                    <div class="product-card__buttons">
+                      <span
+                        class="button basket-button button_icon button_secondary"
+                      >
+                        <svg class="icon">
+                          <use
+                            xlink:href="icon/symbol-defs.svg#icon-cart"
+                          ></use></svg></span>
+                      <span
+                        class="button basket-button button_icon button_secondary"
+                      >
+                        <svg class="icon icon-Search">
+                          <use
+                            xlink:href="icon/symbol-defs.svg#icon-Search"
+                          ></use></svg></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card__description">
+                  <p class="product-card__name">Name</p>
+                  <p class="product-card__price">
+                    Price
+                    <span class="product-card__old-price"> Price </span>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <a class="product-card" href="#">
+            <div class="product-card__group">
+              <img
+                class="product-card__image"
+                src="img/product-card.jpg"
+                alt="card"
+              />
+              <div class="product-card__hover product-card__hover--rounded-btn">
+                <div
+                  class="product-card__buttons product-card__buttons--rounded-btn"
+                >
+                  <span
+                    class="button button_icon button_primary button_rounted"
+                  >
+                    <svg class="icon icon-arrow-1">
+                      <use xlink:href="icon/symbol-defs.svg#icon-arrow-1"></use>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="product-card__description">
+              <p class="product-card__name">Name</p>
+              <p class="product-card__price">
+                Price
+                <span class="product-card__old-price"> Price </span>
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+<!-- progress bar -->
+      <div class="demo">
+        <h2 class="demo__title">Progress bar</h2>
+        <hr />
+        <br />
+        <div class="demo__body">
+          <div class="progress">
+            <div class="progress__item">
+              <div class="progress__number">1</div>
+              <div class="progress__step">Contacts</div>
+            </div>
+            <div class="progress__item is-active">
+              <div class="progress__number">2</div>
+              <div class="progress__step">Shiping</div>
+            </div>
+            <div class="progress__item is-disabled">
+              <div class="progress__number">3</div>
+              <div class="progress__title">Payments</div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- top+nav -->
+      <div class="demo">
+        <h2 class="demo__title">Top bar + Navigation</h2>
+        <hr />
+        <br />
+        <div class="demo__body">
+          <div class="topbar_navigation">
+            <div class="topbar_navigation top_bar">
+              <div class="top_bar_start">
+                <a href="#">
+                  <svg
+                    width="9"
+                    height="12"
+                    viewBox="0 0 9 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9 4.26387C9 6.56535 4.5 11.4031 4.5 11.4031C4.5 11.4031 0 6.56535 0 4.26387C0 1.9624 2.01472 0.0966797 4.5 0.0966797C6.98528 0.0966797 9 1.9624 9 4.26387ZM6.54545 4.26387C6.54545 5.31 5.62967 6.15805 4.5 6.15805C3.37033 6.15805 2.45455 5.31 2.45455 4.26387C2.45455 3.21774 3.37033 2.36969 4.5 2.36969C5.62967 2.36969 6.54545 3.21774 6.54545 4.26387Z"
+                      fill="black"
+                    />
+                  </svg>
+                  City</a
+                >
+              </div>
+              <div class="top_bar_center">
+                <a href="#" class="logo">
+                  <img class="logo__image" src="img/logo.svg" alt="" />
+                </a>
+              </div>
+              <div class="top_bar_end">
+                <a href="#">
+                  <svg class="icon icon-search">
+                    <use xlink:href="icon/symbol-defs.svg#icon-search"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="icon icon-cart">
+                    <use xlink:href="icon/symbol-defs.svg#icon-cart"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="topbar_navigation navigation">
+              <a class="nav_link" href="#">Item1</a>
+              <a class="nav_link" href="#">Item2</a>
+              <a class="nav_link" href="#">Item3</a>
+              <a class="nav_link" href="#">Item4</a>
+              <a class="nav_link" href="#">Item5</a>
+              <a class="nav_link" href="#">Item4</a>
+              <a class="nav_link" href="#">Item5</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- container off -->
+    <!-- footer -->
+    <div class="demo">
+      <h2 class="demo__title">Footer</h2>
+      <hr />
+      <br />
+      <div class="demo__body">
+        <div class="footer">
+          <div class="container">
+            <div class="grid">
+              <div class="grid__item">
+                <div class="footer__title">Title</div>
+                <div class="footer__number">nn-nn-nn</div>
+                <div class="footer__social">
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                </div>
+              </div>
+              <div class="grid__item">
+                <div class="footer__title">Title</div>
+                <div class="footer__list">
+                  <div class="footer__item">Item 1</div>
+                  <div class="footer__item">Item 2</div>
+                  <div class="footer__item">Item 3</div>
+                  <div class="footer__item">Item 4</div>
+                  <div class="footer__item">Item 5</div>
+                </div>
+              </div>
+              <div class="grid__item">
+                <div class="footer__title">Title</div>
+                <div class="footer__list">
+                  <div class="footer__item">Item 1</div>
+                  <div class="footer__item">Item 2</div>
+                  <div class="footer__item">Item 3</div>
+                  <div class="footer__item">Item 4</div>
+                  <div class="footer__item">Item 5</div>
+                </div>
+              </div>
+              <div class="grid__item">
+                <div class="footer__title">Title</div>
+                <div class="footer__list">
+                  <div class="footer__item">Item 1</div>
+                  <div class="footer__item">Item 2</div>
+                  <div class="footer__item">Item 3</div>
+                  <div class="footer__item">Item 4</div>
+                  <div class="footer__item">Item 5</div>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">© Copyright, 2020</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
