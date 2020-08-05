@@ -5,12 +5,12 @@
 
 .radiogroups {
   display: flex;
-  margin: -15px;
+  flex-direction: column;
 }
 
 .radiogroups > * {
-  padding: 15px;
-  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .radiogroup {

@@ -16,10 +16,10 @@
 }
 
 .button .icon_right {
-  margin-left: 6px;
+  margin-left: 12px;
 }
 .button .icon_left {
-  margin-right: 6px;
+  margin-right: 12px;
 }
 
 .button_primary {
@@ -88,6 +88,27 @@
   border-radius: 46px;
 }
 
+.button_buy{
+width: 60%;
+height: 56px;
+}
+
+.button_buy_cart{
+  background-color: white;
+  color: black;
+  border: 1px solid #E6E6EB;
+border-radius: 4px;
+width: 56px;
+height: 56px;
+}
+
+.button_buy_cart:hover,
+.button_buy_cart:focus,
+.button_buy_cart:active{
+  background-color: #595cff;
+  color: white;
+}
+
 /* 
 .button_secondary {
   background-color: red;
@@ -102,3 +123,18 @@
   color: white;
   outline: none;
 } */
+
+
+.btn-pay{
+  border-radius: 8px;
+line-height: 17px;
+}
+
+
+.btn-back{
+  line-height: 20px;
+}
+
+.btn-back:hover{
+  color: #595cff;
+}

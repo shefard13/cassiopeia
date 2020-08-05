@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <div class="container">
+    <div class="product-page container">
         <div class="header">
         <div class="header top_bar">
             <div class="top_bar_start">
             <a href="#">
-                <svg
+              <svg
                 width="9"
-                height="1text"
-                viewBox="0 0 9 1text"
+                height="12"
+                viewBox="0 0 9 12"
                 fill="none"
-                xmlns="http://www.w3.org/text000/svg">
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                     fill-rule="evenodd"
                     clip-rule="evenodd"
-                    d="M9 4.text6387C9 6.56535 4.5 11.4031 4.5 11.4031C4.5 11.4031 0 6.56535 0 4.text6387C0 1.96text4 text.0147text 0.0966797 4.5 0.0966797C6.985text8 0.0966797 9 1.96text4 9 4.text6387ZM6.54545 4.text6387C6.54545 5.31 5.6text967 6.15805 4.5 6.15805C3.37033 6.15805 text.45455 5.31 text.45455 4.text6387Ctext.45455 3.text1774 3.37033 text.36969 4.5 text.36969C5.6text967 text.36969 6.54545 3.text1774 6.54545 4.text6387Z"
+                    d="M9 4.26387C9 6.56535 4.5 11.4031 4.5 11.4031C4.5 11.4031 0 6.56535 0 4.26387C0 1.9624 2.01472 0.0966797 4.5 0.0966797C6.98528 0.0966797 9 1.9624 9 4.26387ZM6.54545 4.26387C6.54545 5.31 5.62967 6.15805 4.5 6.15805C3.37033 6.15805 2.45455 5.31 2.45455 4.26387C2.45455 3.21774 3.37033 2.36969 4.5 2.36969C5.62967 2.36969 6.54545 3.21774 6.54545 4.26387Z"
                     fill="black"
                 />
                 </svg>
@@ -49,7 +49,7 @@
         </div>
         <div class="header navigation">
             <a class="nav_link" href="#">Item1</a>
-            <a class="nav_link" href="#">Itemtext</a>
+            <a class="nav_link" href="#">Item2</a>
             <a class="nav_link" href="#">Item3</a>
             <a class="nav_link" href="#">Item4</a>
             <a class="nav_link" href="#">Item5</a>
@@ -60,7 +60,7 @@
         <div class="breadcrumb__container">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Level1</a></li>
-            <li class="breadcrumb-item"><a href="#">Leveltext</a></li>
+            <li class="breadcrumb-item"><a href="#">Level2</a></li>
             <li class="breadcrumb-item"><a href="#">Level3</a></li>
             <li class="breadcrumb-item active">Level4</li>
           </ol>
@@ -70,29 +70,112 @@
                         <img class="hero_image" src="img/product-card.jpg" alt="" />
                         <div class="benefits">
                             <div class="benefit">
+                              <a href="#">
                                 <span class="button button_icon button_outline_primary button_rounted">
                                     <svg class="icon icon-arrow">
                                       <use xlink:href="icon/symbol-defs.svg#icon-cart"></use></svg>
-                                    </span> Benefit description
+                                    </span>
+                              </a>
+                              <div class="benefit__desc">Benefit description</div>  
                             </div>
                             <div class="benefit">
+                              <a href="#">
                                 <span class="button button_icon button_outline_primary button_rounted">
                                     <svg class="icon icon-arrow">
                                       <use xlink:href="icon/symbol-defs.svg#icon-cart"></use></svg>
-                                    </span> Benefit description
-                                </a>
+                                    </span> 
+                              </a>
+                              <div class="benefit__desc">Benefit description</div> 
                             </div>
                             <div class="benefit">
+                              <a href="#">
                                 <span class="button button_icon button_outline_primary button_rounted">
                                     <svg class="icon icon-arrow">
                                       <use xlink:href="icon/symbol-defs.svg#icon-cart"></use></svg>
-                                    </span> Benefit description
-                                </a>
+                                    </span>
+                              </a>
+                              <div class="benefit__desc">Benefit description</div>  
                             </div>
                         </div>
                     </div>
-                    <div class="product_description"></div>
+                    <div class="product_description">
+                      <div class="desc-heading">
+                        <div class="desc-name">
+                          <h3>Product name</h3>
+                        </div>
+                        <div class="desc-price">
+                          <div class="new-price"> <h2>Price</h2> </div>
+                          <div class="old-price">Oldprice</div>
+                        </div>
+                        <hr>
+                      </hr>
+                      </div>
+                      <div class="desc-main">
+                        <div class="desc-count">
+                          <div class="counters">
+                            <h4>Count:</h4>
+                            <div class="counter">
+                              <div class="counter-increment">
+                                <svg class="icon icon-plus">
+                                  <use xlink:href="icon/symbol-defs.svg#icon-plus"></use>
+                                </svg>
+                              </div>
+                              <div class="counter-value">
+                                N
+                              </div>
+                              <div class="counter-decrement">
+                                <svg class="icon icon-minus">
+                                  <use xlink:href="icon/symbol-defs.svg#icon-minus"></use>
+                                </svg>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="desc-color">
+                          <h4>Color:</h4>
+                          <div class="colors">
+                            <div class="color"></div>
+                            <div class="color"></div>
+                            <div class="color is-selected"></div>
+                          </div>
+                        </div>
+                        <div class="desc-activity">
+                          <a href="#" class="button button_primary button_buy">Button</a>
+                          <span class="button button_buy_cart">
+                            <svg class="icon icon-cart">
+                              <use xlink:href="icon/symbol-defs.svg#icon-cart"></use></svg></span>
+                        </div>
+                      </div>
+                      <div class="desc-footer">
+                        <div class="lists-kop">
+                          <a href="#" class="lists__item">
+                            <div class="list-kop">
+                              <span>Type something</span>
+                              <svg class="icon icon-plus icon-plus-list">
+                                <use xlink:href="icon/symbol-defs.svg#icon-plus"></use>
+                              </svg>
+                            </div>
+                          </a>
+                          <a href="#" class="lists__item">
+                            <div class="list-kop">
+                              <span>Type something</span>
+                              <svg class="icon icon-plus icon-plus-list">
+                                <use xlink:href="icon/symbol-defs.svg#icon-plus"></use>
+                              </svg>
+                            </div>
+                          </a>
+                          <a href="#" class="lists__item">
+                            <div class="list-kop">
+                              <span>Type something</span>
+                              <svg class="icon icon-plus icon-plus-list">
+                                <use xlink:href="icon/symbol-defs.svg#icon-plus"></use>
+                              </svg>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                 </div>
+              </div>
         <div class="prodcard_title">
             <div><h1>Title</h1></div>
             <div class="prodcard_title_switch">
@@ -263,7 +346,7 @@
             <div class="footer__title">Title</div>
             <div class="footer__list">
                 <div class="footer__item">Item 1</div>
-                <div class="footer__item">Item text</div>
+                <div class="footer__item">Item 2</div>
                 <div class="footer__item">Item 3</div>
                 <div class="footer__item">Item 4</div>
                 <div class="footer__item">Item 5</div>
@@ -273,7 +356,7 @@
             <div class="footer__title">Title</div>
             <div class="footer__list">
                 <div class="footer__item">Item 1</div>
-                <div class="footer__item">Item text</div>
+                <div class="footer__item">Item 2</div>
                 <div class="footer__item">Item 3</div>
                 <div class="footer__item">Item 4</div>
                 <div class="footer__item">Item 5</div>
@@ -283,14 +366,14 @@
             <div class="footer__title">Title</div>
             <div class="footer__list">
                 <div class="footer__item">Item 1</div>
-                <div class="footer__item">Item text</div>
+                <div class="footer__item">Item 2</div>
                 <div class="footer__item">Item 3</div>
                 <div class="footer__item">Item 4</div>
                 <div class="footer__item">Item 5</div>
             </div>
             </div>
         </div>
-        <div class="copyright">© Copyright, text0text0</div>
+        <div class="copyright">© Copyright, 2020</div>
         </div>
     </div>
 </body>

@@ -70,6 +70,11 @@
   margin-bottom: 44px;
 }
 
+.prodcard__heading{
+  display: flex;
+ justify-content: space-between;
+ padding-right: 120px;
+}
 
 @media screen  and (min-width: 576px) and (max-width: 992px){
   .child-width-1-4 > * {

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cassiopeia</title>
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <div class="header top_bar">
+            <div class="top_bar_start">
+            <a href="#">
+                <svg
+                width="9"
+                height="12"
+                viewBox="0 0 9 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M9 4.26387C9 6.56535 4.5 11.4031 4.5 11.4031C4.5 11.4031 0 6.56535 0 4.26387C0 1.9624 2.01472 0.0966797 4.5 0.0966797C6.98528 0.0966797 9 1.9624 9 4.26387ZM6.54545 4.26387C6.54545 5.31 5.62967 6.15805 4.5 6.15805C3.37033 6.15805 2.45455 5.31 2.45455 4.26387C2.45455 3.21774 3.37033 2.36969 4.5 2.36969C5.62967 2.36969 6.54545 3.21774 6.54545 4.26387Z"
+                    fill="black"
+                />
+                </svg>
+                City</a
+            >
+            </div>
+            <div class="top_bar_center">
+            <a href="#" class="logo">
+                <img class="logo__image" src="img/logo.svg" alt="" />
+            </a>
+            </div>
+            <div class="top_bar_end">
+            <a href="#">
+                <svg class="icon icon-search">
+                <use xlink:href="icon/symbol-defs.svg#icon-search"></use>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="icon icon-cart">
+                <use xlink:href="icon/symbol-defs.svg#icon-cart"></use>
+                </svg>
+            </a>
+            </div>
+        </div>
+        <div class="header navigation">
+            <a class="nav_link" href="catalog.html">Item1</a>
+            <a class="nav_link" href="catalog2.html">Item2</a>
+            <a class="nav_link" href="#">Item3</a>
+            <a class="nav_link" href="#">Item4</a>
+            <a class="nav_link" href="#">Item5</a>
+            <a class="nav_link" href="#">Item4</a>
+            <a class="nav_link" href="#">Item5</a>
+        </div>
+        </div>
+        <div class="breadcrumb__container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Level1</a></li>
+                <li class="breadcrumb-item"><a href="#">Level2</a></li>
+                <li class="breadcrumb-item"><a href="#">Level3</a></li>
+                <li class="breadcrumb-item active">Level4</li>
+              </ol>
+        </div>
+        <div class="checkout">
+            <h1>Checkout</h1>
+            <div class="checkout_body">
+                <div class="checkout_body_right">
+                    <div class="checkout_body_right-progress">
+                        <div class="progress">
+                            <div class="progress__item is-done">
+                            <div class="progress__number">1</div>
+                            <div class="progress__step">Contacts</div>
+                            </div>
+                            <div class="progress__item is-active">
+                            <div class="progress__number">2</div>
+                            <div class="progress__step">Shiping</div>
+                            </div>
+                            <div class="progress__item is-disabled">
+                            <div class="progress__number">3</div>
+                            <div class="progress__title">Payments</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkout_body_right-form">
+                        <div class="delivery">
+                            <div class="delivery-method">
+                                <div class="delivery__title">Delivery method</div>
+                                <div class="delivery__body">
+                                <div class="radiogroups">
+                                    <div class="radiogroups__item">
+                                    <div class="radiogroup">
+                                        <label class="radio-label radiogroup__label">
+                                        <input
+                                            class="radio radiogroup__radio"
+                                            name="3"
+                                            type="radio"
+                                        />
+                                        <span class="radiogroup__border"></span>
+                                        <div class="radiogroup__title-group">
+                                            <span class="radiogroup__title">Title</span>
+                                            <span class="radiogroup__text">Description</span>
+                                        </div>
+                                        <span class="radiogroup__price">Price</span>
+                                        </label>
+                                    </div>
+                                    </div>
+                                    <div class="radiogroups__item">
+                                    <div class="radiogroup">
+                                        <label class="radio-label radiogroup__label">
+                                        <input
+                                            class="radio radiogroup__radio"
+                                            name="3"
+                                            type="radio"
+                                        />
+                                        <span class="radiogroup__border"></span>
+                                        <div class="radiogroup__title-group">
+                                            <span class="radiogroup__title">Title</span>
+                                            <span class="radiogroup__text">Description</span>
+                                        </div>
+                                        <span class="radiogroup__price">Price</span>
+                                        </label>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="delivery-addres">
+                                <div class="delivery__title">Delivery address</div>
+                                <div class="delivery__body__addres">
+                                    <div class="delivery-addres__city">
+                                    <select class="field field_primary">
+                                    <option value="">text</option>
+                                    <option value="">text</option>
+                                    <option value="">text</option>
+                                    </select>
+                                    </div>
+                                    <div class="delivery-addres-other">
+                                    <input type="text" class="field field_primary" placeholder="text">
+                                    </select>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="delivery-time">
+                                <div class="delivery__title">Date & time</div>
+                                <div class="delivery__body-time">
+                                    <div class="delivery-addres">
+                                    <select class="field field_primary">
+                                    <option value="">text</option>
+                                    <option value="">text</option>
+                                    <option value="">text</option>
+                                    </select>
+                                    </div>
+                                    <div class="delivery-addres">
+                                        <select class="field field_primary">
+                                        <option value="">text</option>
+                                        <option value="">text</option>
+                                        <option value="">text</option>
+                                        </select>
+                                        </div>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="delivery-btn">
+                            <button class="button button_link btn-back">
+                                <svg class="icon icon-arrow icon_right">
+                                    <use xlink:href="icon/symbol-defs.svg#icon-arrow"></use>
+                                  </svg>
+                                Back Step
+                              </button>
+                              
+                              <button class="button button_primary btn-pay">
+                                Payment
+                                <svg class="icon icon-arrow icon_right">
+                                  <use xlink:href="icon/symbol-defs.svg#icon-arrow-1"></use>
+                                </svg>
+                              </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkout_body_left">
+                    <div class="cart">
+                        <div class="cart-head">
+                           <div class="cart-head__total"><h4>Order total(N)</h4></div> 
+                           <div class="cart-head__price">price</div> 
+                        </div>
+                        <div class="cart-body">
+                            <div class="product-body-all">
+                            <div class="product-name">
+                                <img class="product-img" src="img/product-checkout.jpg">
+                                <div class="product-counters">
+                                    <div class="product-name-title">Name</div>
+                                <div class="counters">
+                                    <div class="counter">
+                                        <div class="counter-decrement">
+                                            <svg class="icon icon-black icon-minus">
+                                            <use xlink:href="icon/symbol-defs.svg#icon-minus"></use>
+                                            </svg>
+                                        </div>
+                                    <div class="counter-value">
+                                        N
+                                    </div>
+                                    <div class="counter-increment">
+                                        <svg class="icon icon-black icon-plus">
+                                        <use xlink:href="icon/symbol-defs.svg#icon-plus"></use>
+                                        </svg>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="product-price">Price</div>
+                            </div>
+                        </div>
+                        <div class="cart-variant">
+                            <div class="cart-variant__list">
+                                <a href="#" class="cart-variant__item">
+                                    <div class="variant">
+                                        <div class="var"> Text</div>
+                                        <div class="var"> price</div>
+                                    </div>
+                                </a>
+                                <a href="#" class="cart-variant__item">
+                                    <div class="variant">
+                                        <div class="var"> Text</div>
+                                        <div class="var"> price</div>
+                                    </div>
+                                </a>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+        <div class="grid">
+            <div class="grid__item">
+            <div class="footer__title">Follow us</div>
+            <div class="footer__number">+44 858 858</div>
+            <div class="footer__social">
+                <a href="#"><svg class="icon icon-instagram">
+                    <use xlink:href="icon/symbol-defs.svg#icon-instagram"></use>
+                </svg></a>
+                <a href="#"><svg class="icon icon-viber">
+                    <use xlink:href="icon/symbol-defs.svg#icon-viber"></use>
+                </svg></a>
+                <a href="#"><svg class="icon icon-facebook">
+                    <use xlink:href="icon/symbol-defs.svg#icon-facebook"></use>
+                </svg></a>
+            </div>
+            </div>
+            <div class="grid__item">
+            <div class="footer__title">Title</div>
+            <div class="footer__list">
+                <div class="footer__item">Item 1</div>
+                <div class="footer__item">Item 2</div>
+                <div class="footer__item">Item 3</div>
+                <div class="footer__item">Item 4</div>
+                <div class="footer__item">Item 5</div>
+            </div>
+            </div>
+            <div class="grid__item">
+            <div class="footer__title">Title</div>
+            <div class="footer__list">
+                <div class="footer__item">Item 1</div>
+                <div class="footer__item">Item 2</div>
+                <div class="footer__item">Item 3</div>
+                <div class="footer__item">Item 4</div>
+                <div class="footer__item">Item 5</div>
+            </div>
+            </div>
+            <div class="grid__item">
+            <div class="footer__title">Title</div>
+            <div class="footer__list">
+                <div class="footer__item">Item 1</div>
+                <div class="footer__item">Item 2</div>
+                <div class="footer__item">Item 3</div>
+                <div class="footer__item">Item 4</div>
+                <div class="footer__item">Item 5</div>
+            </div>
+            </div>
+        </div>
+        <div class="copyright">© Copyright, 2020</div>
+        </div>
+    </div>
+</body>
+</html>

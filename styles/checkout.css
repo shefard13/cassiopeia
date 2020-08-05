@@ -1,0 +1,121 @@
+.checkout{
+    min-height: 1170px;
+}
+
+.checkout_body{
+   display: flex;
+   justify-content: space-between;
+}
+
+.checkout_body_left{
+    width: 100%;
+    max-width: 440px;
+    margin-top: 50px;
+}
+
+.checkout_body_right-progress{
+max-width: 540px;
+margin-top: 50px;
+}
+
+.checkout_body_right-form{
+    max-width: 430px;
+    margin-top: 39px;
+}
+
+.delivery{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #E6E6EB;
+    margin-bottom: 20px;
+}
+.delivery__title{
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.delivery__body__addres{
+   display: flex;
+}
+
+.delivery-addres__city{
+min-width: 135px;
+margin-right: 20px;
+}
+.delivery-addres-other{
+    width: 100%;
+}
+
+.delivery__body-time{
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery__body-time > *{
+    width: 48%;
+ }
+
+
+.delivery-btn{
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .cart{
+    border: 1px solid #F0F0F5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px;
+ }
+
+ .cart-head{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+     margin-bottom: 40px;
+ }
+
+ .cart-body > * {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    }
+
+.variant{
+    border-top: 1px solid #F0F0F5;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 58px;
+    padding: 0px;
+    align-items: center;
+}
+
+.variant:hover,
+.variant:focus {
+  background: #f9f9fb;
+  border-radius: 4px;
+  padding: 20px;
+  transition: all 0.2s;
+}
+
+@media (max-width: 540px) {
+    .checkout_body{
+        display: flex;
+        flex-direction: column;
+     }
+     .checkout_body_right-progress{
+        margin-top: 20px;
+        }
+        
+        .checkout_body_right-form{
+            margin-top: 10px;
+        }
+
+        .grid__item > * {
+            font-size: 0.8em !important;
+        }
+
+        .footer__list> * {
+            font-size: 0.8em !important;
+        }
+}

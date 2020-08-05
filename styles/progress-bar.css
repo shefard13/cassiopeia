@@ -1,6 +1,7 @@
 .progress {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .progress__item {
@@ -9,11 +10,7 @@
 }
 
 .progress__item * {
-  margin-right: 5px;
-}
-
-.progress > * {
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .progress__number {
@@ -26,11 +23,20 @@
   border: 1px solid #595cff;
 }
 
-.progress__item.is-active .progress__number {
+.progress__item.is-done .progress__number {
   background-color: #595cff;
   color: white;
   border: 1px solid #595cff;
 }
+.progress__item.is-done .progress__step {
+   color: #595cff;
+}
+
+/* .progress__item.is-active .progress__number {
+  background-color: #595cff;
+  color: white;
+  border: 1px solid #595cff;
+} */
 
 .progress__item.is-disabled .progress__number {
   color: #afb1bd;
@@ -44,6 +50,8 @@
   content: "";
   border: 1px solid grey;
   width: 60px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .progress__item:after {

@@ -1,0 +1,19 @@
+.switch__hero{
+    bottom: 50px;
+    position: absolute;
+    right: 50px;
+  }
+
+  ,switch > *{
+padding: 5px;
+  }
+  
+  .switch > a{
+    color: #E6E6EB;
+    font-size: 1.5em;
+  }
+  
+  .switch > a:hover{
+    color: black;
+    font-size: 1.5em;
+  }

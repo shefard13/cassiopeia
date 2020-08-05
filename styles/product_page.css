@@ -1,3 +1,9 @@
+.product-page{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .prodcard_title{
     display: flex;
     justify-content: space-between;
@@ -17,4 +23,92 @@
 .prodcard_title_switch > a:hover{
     color: black;
     font-size: 1.5em;
+}
+
+.product_img{
+    display: flex;
+    flex-direction: column;
+    width: 568px;
+}
+
+.benefits{
+    margin-top: 20px;
+    display: flex  ;
+    flex-wrap: wrap;
+}
+
+.benefit{
+    display: flex;
+    max-width: 130px;
+    margin-right: 40px;
+}
+
+.benefit__desc{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.product_information{
+display: flex;
+margin-bottom: 178px;
+}
+
+.product_description
+{
+margin-left: 123px;
+max-width: 490px;
+width: 100%;
+}
+
+.desc-price{
+    display: flex;
+    align-items: baseline;
+}
+
+.old-price{
+    margin-left: 20px;
+    font-size: 18px;
+line-height: 22px;
+text-decoration-line: line-through;
+}
+
+.desc-heading{
+    width: 100%;
+}
+
+.desc-activity > *{
+    margin-right: 20px;
+}
+
+.desc-count{
+    margin-top: 40px;
+}
+.desc-color{
+    margin-top: 40px;
+}
+.desc-activity{
+    width: 100%;
+    margin-top: 50px;
+}
+.desc-footer{
+    margin-top: 60px;
+}
+
+@media (max-width: 1200px) {
+    .product_description{
+    margin-left: 80px;
+    }
+}
+
+  @media (max-width: 575px) {
+    .product_information{
+        flex-direction: column;
+        }
+    .product_description{
+        margin-top: 50px;
+    margin-left: 50px;
+    }
+    .product_img{
+        width: 100%;
+    }
 }

@@ -52,18 +52,3 @@ padding-top: 216px;
 padding-left: 100px;
 }
 
-.switch{
-  bottom: 50px;
-  position: absolute;
-  right: 50px;
-}
-
-.switch > a{
-  color: #E6E6EB;
-  font-size: 1.5em;
-}
-
-.switch > a:hover{
-  color: black;
-  font-size: 1.5em;
-}
